@@ -8,9 +8,9 @@ public class ScannerCountFromFile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 Scanner scanner = null;
-		 int mSum = 0;
-		 int mAmount = 0;
+		Scanner scanner = null;
+		int mSum = 0;
+		int mAmount = 0;
 		String mCustomer = "";
 		try {
 			scanner = new Scanner(new File("src/consume.txt"));
